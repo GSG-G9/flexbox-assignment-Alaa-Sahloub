@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Nunito Sans" ,Arial ,sans-serif;
+}
+.contaier{
+    background-color: #544F53;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 657px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 99px;
+}
+.imgdivRelative{
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+.imgone{
+    width: 270px;
+    height: 350px;
+}
+.imgtwo{
+    width: 370px;
+    height: 230px;
+}
+.imgthree{
+    width: 270px;
+    height: 350px;    
+}
+.myimg{
+    z-index: 1;
+}
+.Ttest{
+    width: 35px;
+    height: 35px;
+    background-color: #AB1F83;
+    color: #fff;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 2;
+}
+.box h2{
+    padding-top: 46px;
+    padding-bottom: 20px;
+    color: #FFF;
+}
+.box p{
+    color: #FFF;
+}
+.space{
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
